@@ -6,23 +6,23 @@ we have made a  Dynamic working website for used car price prediction in our mac
 
 In our project, the training model was carried out by dividing the models by car brands instead of a single big model training for both effective optimization processes and better use of computer power and time. Approximately 8000-row data with 13 features were used in training. The machine learning models compared are:
 
-:-linear regression
+## linear regression
 
 ![linear_regression](https://user-images.githubusercontent.com/84517279/206842541-b4a32e9e-b4e2-4545-b785-76653f8aa7a8.png)
 
-:-decision tree
+## decision tree
 
 ![decision_tree](https://user-images.githubusercontent.com/84517279/206842566-1877a3e6-9c63-4db4-ac64-7159deadb3f8.png)
 
-:-Random Forest
+## Random Forest
 
 ![randomforest](https://user-images.githubusercontent.com/84517279/206842579-455056f1-d986-4423-8eb6-2797b062960e.png)
 
-:-xgboost
+## xgboost
 
 ![xgboost](https://user-images.githubusercontent.com/84517279/206842585-ad4c0e77-1453-4a7c-aafd-59b1189dae87.png)
 
-:-Gradient Boosting Machine
+## Gradient Boosting Machine
 
 ![gradient](https://user-images.githubusercontent.com/84517279/206842589-895d3aa5-444c-4f8a-be2a-d653dac96c54.png)
 
