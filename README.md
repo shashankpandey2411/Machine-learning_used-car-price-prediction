@@ -1,6 +1,6 @@
 # Machine-learning_used-car-price-prediction
 
-Introduction:-
+## Introduction :
 
 we have made a  Dynamic working website for used car price prediction in our machine learning project where one can use it to predict the used car price based on factors that were asked on the website.
 
@@ -50,7 +50,7 @@ https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho
 
 
 
-## How to run:-
+## How to run :
 
 1) open the source code folder in IDE 
 2) Install all the requirements mentioned in the prerequisite 
