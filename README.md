@@ -58,4 +58,3 @@ https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho
 3) open the ML PROJECT-CSE4036 file. 
 4) Run the app.py file in the command line to Run as Localhost and the website will run on the collaborated web browser as a local host
 5) Now website is ready to use  
-
