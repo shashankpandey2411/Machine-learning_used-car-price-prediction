@@ -37,7 +37,7 @@ https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho
 
 
 
-## pre-requisite :
+## Prerequisite (Requirments) :
 
 1. numpy
 2. pandas 
@@ -50,12 +50,11 @@ https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho
 
 
 
-How to run:-
+## How to run:-
 
-:-open the source code folder in IDE 
-:- Install all the requirements mentioned in the prerequisite 
-:-open the ML PROJECT-CSE4036 file. 
-:-Run the app.py file in the command line to Run as Localhost 
-:-and the website will run on the collaborated web browser as a local host
-:- your website is ready to use  
+1) open the source code folder in IDE 
+2) Install all the requirements mentioned in the prerequisite 
+3) open the ML PROJECT-CSE4036 file. 
+4) Run the app.py file in the command line to Run as Localhost and the website will run on the collaborated web browser as a local host
+5) Now website is ready to use  
 
