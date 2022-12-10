@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>Car Resale Value Predictor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="static/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+    <link\index.html rel="stylesheet" href="static/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="static/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="static/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="static/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="static/css/aos.css">
+
+    <link rel="stylesheet" href="static/css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+   
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-md-3 col-xl-4  d-block">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">USED CAR PRICE PREDICTION<span class="text-primary"></span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-9 col-xl-8 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+				<li><a href="#features-section" class="nav-link">About project</a></li>
+				<li><a href="#contact-section" class="nav-link">Predict now</a></li>
+                <li><a href="#our-team-section" class="nav-link">About team</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+    
+
+    <div class="site-blocks-cover" style="overflow: hidden;">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
+            
+            <img src="static/images/undraw_investing_7u74.svg" alt="Image" class="img-fluid img-absolute">
+
+            <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-6 mr-auto">
+                <h1> Car Resale Price Predictor</h1>
+                <p class="mb-5">Get to know your car's resale value in an instant.</p>
+                <div  class="nav nav-link scroll">
+                  <a href="#features-section" class="btn btn-primary mr-2 mb-2">Expore now</a>
+                </div>
+              </div>
+              
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    <div class="site-section" id="features-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">About our project</h2>
+            <p class="lead"> Ideation behind our project</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+              </div>
+              <div>
+                <h3>Introduction</h3>
+                <p>Vehicle price prediction especially when the vehicle is used and not coming direct from the factory, is both a critical and important task. 
+                  With increase in demand for used cars more and more vehicle buyers are finding alternatives of buying new cars.                 
+                  There is a need of accurate price prediction mechanism for the used cars. Prediction techniques of machine learning can be helpful in this regard.                 
+                  It is common to lease a car in many countries rather then buying a new car.                 
+                  After the lease period is over, the buyer has the possibility to buy the car at its residual value, i.e. its expected resale value.				   
+				   </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
+              </div>
+              <div>
+                <h3>Objective</h3>
+                <p>The objective of the project is to find the possible resale value of a car based on its gearbox, model, brand, vehicle type, fuel type, mileage and engine power.
+					</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up"  data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
+              </div>
+              <div>
+                <h3>Abstract</h3>
+                <p>The price of a new car in the industry is fixed by the manufacturer with some additional costs incurred by the Government in the form of taxes. So, customers buying a new car can be assured of the money they invest to be worthwhile. But, due to the increased prices of new cars and the financial incapability of the customers to buy them, Used Car sales are on a global increase. Therefore, there is an urgent need for a Used Car Price Prediction system that effectively determines the worthiness of the car using a variety of features</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-settings_backup_restore"></span></span>
+              </div>
+              <div>
+                <h3>Working Process</h3>
+                <p>A car price prediction has been a high-interest research area, as it requires noticeable effort and knowledge of the field expert. A considerable number of distinct attributes are examined for reliable and accurate prediction.
+                  To build a model for predicting the price of used cars the applied machine learning techniques.                 
+                  Respective performances of different algorithms were then compared to find one that best suits the available data set. The final prediction model will be integrated into Python based Flask FrameWork. Furthermore, the model was evaluated using test data. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-sentiment_satisfied"></span></span>
+              </div>
+              <div>
+                <h3>Methodolgy</h3>
+                <figure>
+                  <img src="static/images/methodology.png" alt="Image" class="img-fluid team">
+                </figure>
+              
+              </div>
+            </div>
+
+            
+          </div>
+          
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-power"></span></span>
+              </div>
+              <div>
+                <h3>Future Scope</h3>
+                <p>In future this machine learning model may bind with various website which can provide real time data for price prediction. Also we may add large historical data of car price which can help to improve accuracy of the machine learning model. We can build an android app as user interface for interacting with user. The proposed system will help to determine the accurate price of used car price prediction.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section bg-image2 overlay" id="contact-section" style="background-image: url('images/hero_1.jpg');">
+		<div class="container">
+		  <div class="row mb-5">
+			<div class="col-12 text-center">
+			  <h2 class="section-title mb-3 text-white">Predict Now </h2>
+			</div>
+		  </div>
+		  <div class="row justify-content-center">
+			<div class="col-lg-7 mb-5">
+			  
+			  		<form action="{{ url_for('y_predict')}}"method="post" class="p-5 bg-white">
+			  			<h2 class="h4 text-black mb-5">Enter the details</h2>
+			  			<div class="row form-group">
+			  				<div class="col-md-12">
+                  <div class="my">
+                    <!-- <label for="yearOfRegistration">Year Of Registration</label> -->
+                    <input type="text" name="Yor" placeholder="Year Of Registration" required="required">
+                  </div>
+                  <div class="my">
+                    <!-- <label for="kilometer">Kilo Meter</label> -->
+                  <input type="text" name="kilometer" placeholder="Kilo Meter" required="required">
+                
+                </div>
+                <div class="my">     
+                  <select name="fuelType" required="required">
+                        <option value="">Select fuelType </option>
+                
+                        <option value=1>Petrol</option>
+                        <option value=2>Diesel</option>
+                        <option value=3>CNG</option>
+              
+                      </select>
+                  </div>
+                  <div class="my">
+                    <select name="gearbox" required="required">
+                          <option value="">Select Transmission </option>
+                          <option value=0>Automatic</option>
+                          <option value=1>Manual</option>
+                        </select>
+                    </div>
+                    <div class="my">
+                      <select name="gearbox" required="required">
+                            <option value="">Select Owner Type </option>
+                            <option value=0>First</option>
+                            <option value=1>Second</option>
+                            <option value=2>Third</option>
+                            <option value=3>Other</option>
+                          </select>
+                      </div>
+                      <div class="my">
+                        <!-- <label for="kilometer">Kilo Meter</label> -->
+                      <input type="text" name="Mileage" placeholder="Mileage" required="required">
+                    
+                    </div>
+                    <div class="my">
+                      <!-- <label for="kilometer">Kilo Meter</label> -->
+                    <input type="text" name="Engine" placeholder="Engine" required="required">
+                  
+                  </div>
+                  <div class="my">
+                    <!-- <label for="PowerPs">PowerPS</label> -->
+                    <input type="text" name="PowerPs" placeholder="PowerPS" required="required">
+              
+                  </div>
+                  <div class="my">
+                    <select name="brand" required="required">
+                          <option value="">Select brand </option>
+                          <option value=0>Hyundai</option>
+                          <option value=1>Mahindra</option>
+                          <option value=2>Mercedes-Benz</option>
+                          <option value=3>Ford</option>
+                          <option value=4>Honda</option>
+                          <option value=5>Maruti</option>
+                          <option value=6>Toyota</option>
+                          <option value=7>Renault</option>
+                          <option value=8>Volvo</option>
+                          <option value=9>Volkswagen</option>
+                          <option value=10>Jaguar</option>
+                          <option value=11>BMW</option>
+                          <option value=12>hyundai</option>
+                          <option value=13>Nissan</option>
+                          <option value=14>Tata</option>
+                          <option value=15>Skoda</option>
+                          <option value=16>Land</option>
+                          <option value=17>Chevrolet</option>
+                          <option value=18>Jeep</option>
+                          <option value=19>Mini</option>
+                          <option value=20>Mitsubishi</option>
+                          <option value=21>Fiat</option>
+                          <option value=22>Datsun</option>
+                          <option value=23>Bentley</option>
+                          <option value=24>Porsche</option>
+                          <option value=25>Force</option>
+                          <option value=26>Lamborghini</option>
+                          <option value=27>Isuzu</option>
+                          <option value=28>Ambassador</option>
+                          <!-- <option value=29>saab</option>
+                          <option value=30>seat</option>
+                          <option value=31>skoda</option>
+                          <option value=32>smart</option>
+                          <option value=33>sonstige_autos</option>
+                          <option value=34>subaru</option>
+                          <option value=35>suzuki</option>
+                          <option value=36>toyota</option>
+                          <option value=37>trabant</option>
+                          <option value=38>volkswagen</option>
+                          <option value=39>volvo</option> -->
+                        </select>
+                    </div>
+    <div class="my">
+        	<input type="submit" value="Predict" class="btn btn-primary mr-2 mb-2" >
+	</div>
+			</div>
+			</div>
+			{% if prediction_text %}
+					<h4><span style="padding: 5px;color: green">The expected resale value is Rs. {{prediction_text}} lakh</span></h4>
+				{% endif %}
+		</form>
+
+			</div>
+		  
+		  </div>
+		  
+		</div>
+	  </div>   
+
+    <div class="site-section" id="our-team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Our Team</h2>
+          </div>
+        </div>
+       
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="static/images/atul1.jpeg" alt="Image" class="img-fluid team">
+                </figure>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/atul-r-patel-150664239"><span class="icon-linkedin"></span></a>
+                  <a> </a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="White" class="bi bi-github" viewBox="0 0 22 22">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                </div>
+              </div>
+              <h2 class="text-black h1">Atul Patel</h2>
+              <span class="sub-title d-block mb-3">Integrated MTech CSE Student at VIT Chennai</span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="static/images/piyali.jpg" alt="Image" class="img-fluid team">
+                </figure>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/piyali-saha-6936a0227"><span class="icon-linkedin"></span></a>
+                  <a> </a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="White" class="bi bi-github" viewBox="0 0 22 22">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                </div>
+              </div>
+              <h2 class="text-black h1">Piyali Saha</h2>
+              <span class="sub-title d-block mb-3">Integrated MTech CSE Student at VIT Chennai</span>
+              
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="static/images/shashank.jpeg" alt="Image" class="img-fluid team">
+                </figure>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/shashank-pandey-b9a5a0215"><span class="icon-linkedin"></span></a>
+                  <a> </a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="White" class="bi bi-github" viewBox="0 0 22 22">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                </div>
+              </div>
+              <h2 class="text-black h1">Shashank Pandey</h2>
+              <span class="sub-title d-block mb-3">Integrated MTech CSE Student at VIT Chennai</span>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="static/images/dvss.jpeg" alt="Image" class="img-fluid team">
+                </figure>
+                <div class="social">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Darshan VSS</h2>
+              <span class="sub-title d-block mb-3">Student</span>
+              <p>Hi I'm dvss.</p>
+            </div>
+		  </div> -->
+
+		  <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="static/images/chetan.jpeg" alt="Image" class="img-fluid team">
+                </figure>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/chetan-srivastava2101"><span class="icon-linkedin"></span></a>
+                  <a> </a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="White" class="bi bi-github" viewBox="0 0 22 22">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                </div>
+              </div>
+              <h2 class="text-black h1">Chetan Srivastava</h2>
+              <span class="sub-title d-block mb-3">Integrated MTech CSE Student at VIT Chennai</span>
+            </div>
+          </div>
+
+          	<!-- <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          	  	<div class="person">
+              	<div class="bio-img">
+                	<figure>
+                  		<img src="static/images/jk.jpeg" alt="Image" class="img-fluid team">
+                	</figure>
+                	<div class="social">
+                  		<a href="#"><span class="icon-facebook"></span></a>
+                  		<a href="#"><span class="icon-twitter"></span></a>
+                  		<a href="#"><span class="icon-instagram"></span></a>
+                	</div>
+              	</div>
+              	<h2 class="text-black h1">Jagadeesh Kakarla</h2>
+              	<span class="sub-title d-block mb-3">Faculty In-Charge</span>
+            	<p>Hi, I am Jagadeesh.</p>
+			</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="footer py-5 text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .site-wrap -->
+
+  <script src="static/js/jquery-3.3.1.min.js"></script>
+  <script src="static/js/jquery-ui.js"></script>
+  <script src="static/js/popper.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/owl.carousel.min.js"></script>
+  <script src="static/js/jquery.countdown.min.js"></script>
+  <script src="static/js/bootstrap-datepicker.min.js"></script>
+  <script src="static/js/jquery.easing.1.3.js"></script>
+  <script src="static/js/aos.js"></script>
+  <script src="static/js/jquery.fancybox.min.js"></script>
+  <script src="static/js/jquery.sticky.js"></script>
+  <script src="static/js/main.js"></script>
+  
+  </body>
+</html>
