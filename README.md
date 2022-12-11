@@ -1,8 +1,5 @@
 # Machine-learning_used-car-price-prediction
 ![website_home](https://user-images.githubusercontent.com/84517279/206887275-c2488230-d368-443e-adee-801477eb33cf.png)
-![about](https://user-images.githubusercontent.com/84517279/206887278-7fc0eff0-c207-4c32-ba84-4a20387f3a44.png)
-![about2](https://user-images.githubusercontent.com/84517279/206887279-d69cfba2-b24e-44f5-b68f-d45e32be633c.png)
-![predict](https://user-images.githubusercontent.com/84517279/206887283-88d74111-9ff6-4326-98d4-40fc4dee7c3f.png)
 
 ## Introduction :
 
